@@ -3,17 +3,19 @@ import "../index.css";
 
 import { useState } from "react";
 
-const Task = ({ text }) => {
+const Task = ({ text, time }) => {
   const [value, setValue] = useState("Editing task");
 
   return (
     <>
+      {/* как я понял на данном этапе только визуал поэтому тут 3 li */}
+      {/* на следующих этапах сделаю 1 li и его состояния */}
       <li className="completed">
         <div className="view">
           <input className="toggle" type="checkbox" />
           <label>
             <span className="description">{text}</span>
-            <span className="created">created 17 seconds ago</span>
+            <span className="created">{time}</span>
           </label>
           <button className="icon icon-edit"></button>
           <button className="icon icon-destroy"></button>

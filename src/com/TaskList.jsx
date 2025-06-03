@@ -7,7 +7,7 @@ const TaskList = () => {
   return (
     <>
       <ul className="todo-list">
-        <Task text="Completed task" />
+        <Task text="Completed task" time="created 17 seconds ago" />
       </ul>
     </>
   );
