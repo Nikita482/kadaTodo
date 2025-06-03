@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/kadaTodo/static/css/main.2cd9087b.css",
-    "main.js": "/kadaTodo/static/js/main.4ab689b0.js",
+    "main.js": "/kadaTodo/static/js/main.f918f6d8.js",
     "index.html": "/kadaTodo/index.html",
     "main.2cd9087b.css.map": "/kadaTodo/static/css/main.2cd9087b.css.map",
-    "main.4ab689b0.js.map": "/kadaTodo/static/js/main.4ab689b0.js.map"
+    "main.f918f6d8.js.map": "/kadaTodo/static/js/main.f918f6d8.js.map"
   },
   "entrypoints": [
     "static/css/main.2cd9087b.css",
-    "static/js/main.4ab689b0.js"
+    "static/js/main.f918f6d8.js"
   ]
 }
